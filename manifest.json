@@ -1,0 +1,9 @@
+{
+	"name": "Takeoff",
+	"version": "1.0",
+	"description": "Takeoff grabs a random entry from your Bookmarks collection and loads it when you start the browser or open a new tab.",
+	"chrome_url_overrides": {
+		"newtab": "takeoff.html"
+	},
+	"permissions": ["tabs", "bookmarks"]
+}

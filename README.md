@@ -1,3 +1,5 @@
+This is Forked from a great, simple extension from **[@ryanmcgrath](http://twitter.com/ryanmcgrath)**
+
 Takeoff
 ---------------------------------------------------------------------------
 I was up late one night, and my brain was in one of those modes where I needed
@@ -13,8 +15,8 @@ run with it as you see fit. MIT licensed.
 
 To Install
 ----------------------------------------------------------------------------
-Download it, unzip it somewhere, load it up in your extensions tab by loading
-an "unpacked" extension.
+Download it, unzip it somewhere, load it up in your [extensions tab](chrome://extensions/) by loading
+an "unpacked" extension. Or, just drag and drop...easy. NOTE: You must enable developer tools to get this to work.
 
 Publicity
 ---------------------------------------------------------------------------

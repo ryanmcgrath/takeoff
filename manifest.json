@@ -5,5 +5,6 @@
 	"chrome_url_overrides": {
 		"newtab": "takeoff.html"
 	},
+	"manifest-version": 2,
 	"permissions": ["tabs", "bookmarks"]
 }

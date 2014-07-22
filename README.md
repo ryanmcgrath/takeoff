@@ -1,4 +1,4 @@
-This is Forked from a great, simple extension from **[@ryanmcgrath](http://twitter.com/ryanmcgrath)**
+This is Forked from a great, simple extension from **[@ryanmcgrath](http://twitter.com/ryanmcgrath)** from **[here](https://github.com/ryanmcgrath/takeoff)**.
 
 Takeoff
 ---------------------------------------------------------------------------
@@ -15,7 +15,7 @@ run with it as you see fit. MIT licensed.
 
 To Install
 ----------------------------------------------------------------------------
-Download it, unzip it somewhere, load it up in your [extensions tab](chrome://extensions/) by loading
+Download it, unzip it somewhere, load it up in your **[extensions tab](chrome://extensions/)** by loading
 an "unpacked" extension. Or, just drag and drop...easy. NOTE: You must enable developer tools to get this to work.
 
 Publicity

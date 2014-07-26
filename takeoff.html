@@ -3,40 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <body>
-<script>
-var bookmarks = {
-	walk: function(tree) {
-		var flattened = [];
-	
-		if(typeof tree.children !== 'undefined') {
-			flattened.concat(tree.children);
-		} else {
-			tree.forEach(function(node) {
-				if(typeof node.children !== 'undefined') {
-					flattened = flattened.concat(node.children);
-				} else {
-					flattened = flattened.concat(walkBookmarkTree(node));
-				}
-			});
-		}
-
-		return flattened;
-	},
-
-	setPage: function(windowObj) {
-		chrome.bookmarks.getTree(function(bookMarksArr) {
-			var flattendBookmarks = bookmarks.walk(bookMarksArr[0].children),
-				bookmark = flattendBookmarks[Math.floor(Math.random() * flattendBookmarks.length)];
-			
-			chrome.tabs.getSelected(windowObj.windowId, function(tab) {
-				chrome.tabs.update(tab.id, {url: bookmark.url});
-			});
-		});
-	},
-};
-
-chrome.windows.getLastFocused(bookmarks.setPage);
-</script>
+<script src="takeoff.js" type="text/javascript"></script>
 </head>
 </body>
 </html>
